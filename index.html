@@ -114,7 +114,7 @@
                         <td colspan="2">' + (feature.properties['Grafik'] !== null ? '<img src="images/' + String(feature.properties['Grafik']).replace(/[\\\/:]/g, '_').trim() + '" '+ 'class=popupImage' +'>' : '') + '</td>\
                     </tr>\
                 </table>';
-            layer.bindPopup(popupContent, {maxHeight: 80});
+            layer.bindPopup(popupContent, {maxHeight: 100});
         }
 
         function style_Legenda_1_0(feature) {
