@@ -23,7 +23,7 @@
             padding-right: 10px;
         }
         .leaflet-popup-content {
-            width: 260px !important;   
+            width: 100px !important;   
             max-height: 260px !important; 
             overflow-y: auto;          
             padding: 8px 12px;             
