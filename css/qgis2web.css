@@ -23,7 +23,7 @@
             padding-right: 10px;
         }
         .leaflet-popup-content {
-            width: 190px !important;   
+            width: 200px !important;   
             max-height: 260px !important; 
             overflow-y: auto;          
             padding: 8px 12px;             
@@ -130,6 +130,6 @@
             background-color: #f8f8f8 !important;
         }
 .popupImage {
- max-width: 100%;
+ max-width: 300%;
  max-height: auto;
 }
